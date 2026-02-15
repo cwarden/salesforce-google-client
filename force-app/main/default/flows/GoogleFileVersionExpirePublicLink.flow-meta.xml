@@ -80,14 +80,14 @@
             <field>PublicLinkExpirationDate__c</field>
             <operator>IsNull</operator>
             <value>
-                <booleanValue>false</booleanValue>
+                <booleanValue>true</booleanValue>
             </value>
         </filters>
         <filters>
             <field>PublicLinkStatus__c</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>Pending Expiration</stringValue>
+                <stringValue>Pending Immediate Expiration</stringValue>
             </value>
         </filters>
         <object>GoogleFileVersion__c</object>
